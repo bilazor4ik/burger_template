@@ -1,0 +1,151 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.theme-text-color {
+    color:
+        #3d2514;
+}
+
+.burger-bg {
+    background-image: url("/images/burger-bg.jpg");
+    background-size: cover;
+
+}
+
+nav.navbar {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+
+section#hero-section .left-side span.striped {
+    border-style: dashed;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+section#hero-section .left-side h1 {
+    font-size: 120px;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 3px 3px 0px white;
+    line-height: 95px;
+}
+
+section#hero-section .left-side h1 span {
+    font-size: 90px;
+}
+
+section#hero-section .right-side .price-label {
+    color: white;
+    font-size: 41px;
+    background-image: url("/images/price_label_bg.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 40px;
+    font-weight: 600;
+}
+
+#banners {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+#banners .title {
+    top: 15px;
+    left: 35px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#banners img {
+    border-radius: 20px;
+}
+
+.orange-bg {
+    background-color: #ffc045;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+#menu-section h1 {
+    font-family: 'Alfa Slab One';
+    font-size: 50px;
+}
+
+.fancy {
+    font-family: 'Alfa Slab One';
+}
+
+#menu-section button {
+    font-family: 'Alfa Slab One';
+    letter-spacing: 1px;
+}
+
+#menu-section img {
+    max-height: 400px;
+    width: 100%;
+    transition: all 1s ease;
+}
+
+#menu-section .menu-item:hover img {
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+}
+
+#upcoming-events .carousel-indicators {
+    left: 30px;
+    bottom: 15px;
+    right: auto;
+    margin: 0;
+}
+#upcoming-events .carousel{
+    box-shadow: 14px 14px 13px #e7e7e7;
+}
+#upcoming-events .carousel-indicators button {
+    background: #ffc045;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    border: none;
+}
+#reservation::after{
+    content: " ";
+    background-image: url("/images/borger-top.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 17%;
+    top: 0;
+    overflow: hidden;
+}
+#reservation::before{
+    content: " ";
+    background-image: url("/images/burger-on-plate.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 249px;
+    background-position-x: 150px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 23%;
+    bottom: -36%;
+    overflow: hidden;
+}
+footer{
+    background-image: url("/images/footer-bg.jpg");
+    background-size: cover;
+}
